@@ -1,2 +1,2 @@
 dir /w/s
-clas
+cls

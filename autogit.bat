@@ -1,3 +1,3 @@
 git add .
 git commit -m "New Commit"
-git push -u python
+git push -u python master

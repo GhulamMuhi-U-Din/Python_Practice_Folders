@@ -1,0 +1,102 @@
+# ============================================
+# PIP COMMANDS CHEAT SHEET
+# ============================================
+
+# Check pip version
+pip --version
+
+# Check Python version
+python --version
+
+# List all installed packages
+pip list
+
+# List outdated packages
+pip list --outdated
+
+# Show details of a package
+pip show requests
+
+# Install a package
+pip install requests
+
+# Install multiple packages
+pip install numpy pandas matplotlib
+
+# Install a specific version
+pip install requests==2.32.5
+
+# Upgrade a package
+pip install --upgrade requests
+
+# Short form for upgrade
+pip install -U requests
+
+# Upgrade pip itself
+python -m pip install --upgrade pip
+
+# Uninstall a package
+pip uninstall requests
+
+# Uninstall multiple packages
+pip uninstall requests flask
+
+# Save installed packages to requirements.txt
+pip freeze > requirements.txt
+
+# Display installed packages in requirements format
+pip freeze
+
+# Install packages from requirements.txt
+pip install -r requirements.txt
+
+# Search for a package (Deprecated - use https://pypi.org instead)
+# pip search package_name
+
+# Display help
+pip help
+
+# Display help for install command
+pip install --help
+
+# Display help for uninstall command
+pip uninstall --help
+
+# Display help for list command
+pip list --help
+
+# Check package dependencies
+pip show pandas
+
+# Download package without installing
+pip download requests
+
+# Install package from local file
+pip install requests.whl
+
+# Reinstall a package
+pip install --force-reinstall requests
+
+# Ignore already installed packages
+pip install --ignore-installed requests
+
+# Install without using cache
+pip install --no-cache-dir requests
+
+# List packages in JSON format
+pip list --format=json
+
+# List packages in freeze format
+pip list --format=freeze
+
+# Check pip configuration
+pip config list
+
+# Clear pip cache
+pip cache purge
+
+# Show pip cache location
+pip cache dir
+
+# List cached packages
+pip cache list

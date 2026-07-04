@@ -18,3 +18,8 @@ print("=========================================")
 calculator(num1, num2)
 print("=========================================")
 advancedCalculator(wholeNum)
+<<<<<<< HEAD
+=======
+
+# new updation start .......
+>>>>>>> cac4fcd4870cb47b34c87d4eec4aeb868e6b1e0b

@@ -1,0 +1,27 @@
+# ==========================================================
+# CHEAT SHEET
+# ==========================================================
+
+# re.search()      -> First match anywhere
+# re.match()       -> Match only at beginning
+# re.findall()     -> Return all matches
+# re.finditer()    -> Return Match objects
+# re.sub()         -> Replace text
+# re.split()       -> Split string
+# re.compile()     -> Compile regex pattern
+
+# .                -> Any character
+# \d               -> Digit
+# \D               -> Non-digit
+# \w               -> Word character
+# \W               -> Non-word character
+# \s               -> Whitespace
+# \S               -> Non-whitespace
+# ^                -> Beginning of string
+# $                -> End of string
+# *                -> Zero or more
+# +                -> One or more
+# ?                -> Zero or one
+# []               -> Character set
+# |                -> OR
+# ()               -> Grouping

@@ -1,0 +1,401 @@
+# important libraries
+
+=========================================================
+            PYTHON LIBRARIES CHEAT SHEET
+=========================================================
+
+---------------------------------------------------------
+1. requests
+---------------------------------------------------------
+Purpose:
+    • Send HTTP requests
+    • Work with REST APIs
+    • Download data from websites
+
+Install:
+    pip install requests
+
+Import:
+    import requests
+
+Examples:
+    • Weather API
+    • ChatGPT API
+    • GitHub API
+    • Web Services
+
+---------------------------------------------------------
+2. numpy
+---------------------------------------------------------
+Purpose:
+    • Fast mathematical calculations
+    • Arrays
+    • Matrix operations
+    • Scientific computing
+
+Install:
+    pip install numpy
+
+Import:
+    import numpy as np
+
+Examples:
+    • AI
+    • Machine Learning
+    • Data Science
+
+---------------------------------------------------------
+3. pandas
+---------------------------------------------------------
+Purpose:
+    • Work with tables
+    • Read Excel files
+    • Read CSV files
+    • Data Analysis
+
+Install:
+    pip install pandas
+
+Import:
+    import pandas as pd
+
+Examples:
+    • Excel Automation
+    • Reports
+    • Data Cleaning
+
+---------------------------------------------------------
+4. matplotlib
+---------------------------------------------------------
+Purpose:
+    • Draw graphs
+    • Charts
+    • Data Visualization
+
+Install:
+    pip install matplotlib
+
+Import:
+    import matplotlib.pyplot as plt
+
+Examples:
+    • Line Charts
+    • Bar Charts
+    • Pie Charts
+
+---------------------------------------------------------
+5. opencv-python
+---------------------------------------------------------
+Purpose:
+    • Image Processing
+    • Video Processing
+    • Computer Vision
+
+Install:
+    pip install opencv-python
+
+Import:
+    import cv2
+
+Examples:
+    • Face Detection
+    • CCTV
+    • OCR
+    • AI Vision
+
+---------------------------------------------------------
+6. flask
+---------------------------------------------------------
+Purpose:
+    • Web Development
+    • REST APIs
+    • Backend Development
+
+Install:
+    pip install flask
+
+Import:
+    from flask import Flask
+
+Examples:
+    • REST API
+    • AI Backend
+    • Web Applications
+
+---------------------------------------------------------
+7. django
+---------------------------------------------------------
+Purpose:
+    • Large Web Applications
+    • Full Stack Development
+
+Install:
+    pip install django
+
+Import:
+    import django
+
+Examples:
+    • ERP Systems
+    • E-Commerce
+    • Banking Systems
+
+---------------------------------------------------------
+8. pyautogui
+---------------------------------------------------------
+Purpose:
+    • Mouse Automation
+    • Keyboard Automation
+    • Desktop Automation
+
+Install:
+    pip install pyautogui
+
+Import:
+    import pyautogui
+
+Examples:
+    • Desktop Bots
+    • Auto Typing
+    • GUI Testing
+
+---------------------------------------------------------
+9. selenium
+---------------------------------------------------------
+Purpose:
+    • Browser Automation
+    • Web Testing
+    • Web Scraping
+
+Install:
+    pip install selenium
+
+Import:
+    from selenium import webdriver
+
+Examples:
+    • Login Automation
+    • Form Filling
+    • Browser Testing
+
+---------------------------------------------------------
+10. beautifulsoup4
+---------------------------------------------------------
+Purpose:
+    • Web Scraping
+    • HTML Parsing
+
+Install:
+    pip install beautifulsoup4
+
+Import:
+    from bs4 import BeautifulSoup
+
+Examples:
+    • Extract Website Data
+    • News Scraping
+
+---------------------------------------------------------
+11. scikit-learn
+---------------------------------------------------------
+Purpose:
+    • Machine Learning Algorithms
+
+Install:
+    pip install scikit-learn
+
+Import:
+    import sklearn
+
+Examples:
+    • Classification
+    • Regression
+    • Clustering
+
+---------------------------------------------------------
+12. tensorflow
+---------------------------------------------------------
+Purpose:
+    • Deep Learning
+    • Neural Networks
+
+Install:
+    pip install tensorflow
+
+Import:
+    import tensorflow as tf
+
+Examples:
+    • AI Models
+    • Image Recognition
+    • NLP
+
+---------------------------------------------------------
+13. torch (PyTorch)
+---------------------------------------------------------
+Purpose:
+    • Deep Learning
+    • AI Research
+
+Install:
+    pip install torch
+
+Import:
+    import torch
+
+Examples:
+    • Large Language Models
+    • Computer Vision
+    • AI Research
+
+---------------------------------------------------------
+14. sqlalchemy
+---------------------------------------------------------
+Purpose:
+    • Database ORM
+    • SQL Database Access
+
+Install:
+    pip install sqlalchemy
+
+Import:
+    from sqlalchemy import create_engine
+
+Examples:
+    • SQL Server
+    • MySQL
+    • PostgreSQL
+
+---------------------------------------------------------
+15. fastapi
+---------------------------------------------------------
+Purpose:
+    • High Performance APIs
+    • Modern Backend Development
+
+Install:
+    pip install fastapi
+
+Import:
+    from fastapi import FastAPI
+
+Examples:
+    • AI APIs
+    • Microservices
+    • Backend Applications
+
+---------------------------------------------------------
+16. streamlit
+---------------------------------------------------------
+Purpose:
+    • Build Data Science & AI Web Apps
+
+Install:
+    pip install streamlit
+
+Import:
+    import streamlit as st
+
+Examples:
+    • Dashboards
+    • AI Demo Apps
+    • Data Visualization
+
+---------------------------------------------------------
+17. pillow (PIL)
+---------------------------------------------------------
+Purpose:
+    • Image Editing
+    • Image Processing
+
+Install:
+    pip install pillow
+
+Import:
+    from PIL import Image
+
+Examples:
+    • Resize Images
+    • Crop Images
+    • Convert Formats
+
+---------------------------------------------------------
+18. pyodbc
+---------------------------------------------------------
+Purpose:
+    • Connect Python with SQL Server
+    • Execute SQL Queries
+
+Install:
+    pip install pyodbc
+
+Import:
+    import pyodbc
+
+Examples:
+    • SQL Server Automation
+    • Database Applications
+
+---------------------------------------------------------
+19. openpyxl
+---------------------------------------------------------
+Purpose:
+    • Read & Write Excel Files (.xlsx)
+
+Install:
+    pip install openpyxl
+
+Import:
+    import openpyxl
+
+Examples:
+    • Excel Reports
+    • Excel Automation
+
+---------------------------------------------------------
+20. python-docx
+---------------------------------------------------------
+Purpose:
+    • Create & Edit Microsoft Word Documents
+
+Install:
+    pip install python-docx
+
+Import:
+    from docx import Document
+
+Examples:
+    • Reports
+    • Certificates
+    • Letters
+
+=========================================================
+             MOST IMPORTANT LIBRARIES
+=========================================================
+
+★★★★★ Essential
+    requests
+    numpy
+    pandas
+    flask
+    pyautogui
+    pyodbc
+
+★★★★☆ Very Important
+    matplotlib
+    opencv-python
+    selenium
+    beautifulsoup4
+    fastapi
+    sqlalchemy
+    openpyxl
+
+★★★☆☆ AI / Machine Learning
+    scikit-learn
+    tensorflow
+    torch
+    streamlit
+
+★★☆☆☆ Document Processing
+    pillow
+    python-docx

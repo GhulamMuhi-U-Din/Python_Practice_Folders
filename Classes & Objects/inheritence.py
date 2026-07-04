@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # inheritence in classes
-=======
-# inheritence in classes ### ###
->>>>>>> cac4fcd4870cb47b34c87d4eec4aeb868e6b1e0b
 
 class Animal:
 

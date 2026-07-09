@@ -5,7 +5,7 @@ connection = pyodbc.connect(
     "SERVER=localhost;"
     "DATABASE=northwind;"
     "UID=root;"
-    "PWD=9262;"
+    "PWD=your_password;"
 )
 
 print("Connected Successfully!")

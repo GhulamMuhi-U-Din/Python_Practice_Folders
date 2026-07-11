@@ -1,0 +1,7 @@
+reduce()      → Many values → One value
+
+partial()     → Pre-fill arguments
+
+lru_cache()   → Remember previous results
+
+wraps()       → Preserve original function information

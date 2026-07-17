@@ -39,4 +39,4 @@ class Student:
     @staticmethod
     def school():
 
-        return "GMD School"
+        return "MY School"

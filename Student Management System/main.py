@@ -4,8 +4,8 @@ from config import APP_NAME, VERSION
 print(APP_NAME)
 print(VERSION)
 
-student1 = Student("Ali", 20)
-student2 = Student("Ahmed", 22)
+student1 = Student("John", 20)
+student2 = Student("Thomas", 22)
 
 print(student1)
 print(student2)

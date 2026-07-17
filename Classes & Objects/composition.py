@@ -2,7 +2,8 @@
 class Engine:
 
     # Create start method
-    def start(self):
+    @staticmethod
+    def start():
 
         # Display message
         print("Engine Started")
